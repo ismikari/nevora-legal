@@ -46,11 +46,13 @@
 
 <h1>Πολιτική Απορρήτου</h1>
 <p class="sub">Nevora — εφαρμογή οργάνωσης γευμάτων<br>
-Ισχύει από: <strong>21 Αυγούστου 2026</strong> · Έκδοση 1.0</p>
+Ισχύει από: <strong>24 Σεπτεμβρίου 2026</strong> · Έκδοση 1.1</p>
 
 <div class="note">
-<strong>Με μια πρόταση:</strong> η Nevora αποθηκεύει τα πάντα <strong>μόνο στη συσκευή σου</strong>.
-Δεν υπάρχει λογαριασμός, δεν ανεβαίνει τίποτα στο διαδίκτυο, δεν βλέπει κανείς άλλος τα δεδομένα σου.
+<strong>Με μια πρόταση:</strong> η Nevora δουλεύει <strong>χωρίς λογαριασμό</strong> και κρατάει
+τα πάντα στη συσκευή σου. <strong>Αν</strong> επιλέξεις να συνδεθείς, κρατιέται και ένα αντίγραφο
+στον λογαριασμό σου ώστε να μη χαθούν αν αλλάξεις κινητό. Χωρίς διαφημίσεις, χωρίς trackers,
+χωρίς πώληση δεδομένων — ποτέ.
 </div>
 
 <h2>1. Ποιος είναι υπεύθυνος</h2>
@@ -61,7 +63,8 @@
 <p>Για οποιοδήποτε ερώτημα σχετικά με τα δεδομένα σου: <strong>elementa.constructions@gmail.com</strong></p>
 
 <h2>2. Τι δεδομένα αποθηκεύει η εφαρμογή</h2>
-<p>Όλα τα παρακάτω αποθηκεύονται <strong>αποκλειστικά στη συσκευή σου</strong>, στον ιδιωτικό χώρο αποθήκευσης της εφαρμογής:</p>
+<p>Τα παρακάτω αποθηκεύονται <strong>πάντα στη συσκευή σου</strong>, στον ιδιωτικό χώρο αποθήκευσης της εφαρμογής.
+Αν έχεις συνδεθεί, κρατιέται <strong>και αντίγραφό τους</strong> στον λογαριασμό σου (δες §3):</p>
 
 <table>
   <tr><th>Δεδομένα</th><th>Τι περιλαμβάνει</th></tr>
@@ -75,20 +78,97 @@
 
 <p>
 Το «όνομα» είναι απλώς ένα κείμενο που εμφανίζεται στον χαιρετισμό της αρχικής οθόνης.
-Μπορεί να είναι οτιδήποτε — δεν επαληθεύεται και δεν στέλνεται πουθενά.
+Μπορεί να είναι οτιδήποτε — δεν επαληθεύεται. Αν είσαι συνδεδεμένη, ανεβαίνει
+μαζί με τις υπόλοιπες ρυθμίσεις σου· αν δεν είσαι, δεν φεύγει από τη συσκευή.
 </p>
 
-<h2>3. Τι <em>δεν</em> κάνει η εφαρμογή</h2>
+<h2>3. Ο λογαριασμός — προαιρετικός</h2>
+<p>
+Η Nevora λειτουργεί <strong>πλήρως χωρίς λογαριασμό</strong>: συνταγές, ντουλάπι,
+λίστα ψωνιών και πλάνο δουλεύουν κανονικά. Αν όμως σβήσεις ή επανεγκαταστήσεις
+την εφαρμογή, ή αλλάξεις συσκευή, <strong>τα δεδομένα χάνονται</strong>. Ο
+λογαριασμός υπάρχει ακριβώς γι' αυτό.
+</p>
+
+<h3>Πώς γίνεται η σύνδεση</h3>
+<p>
+Δίνεις το <strong>email</strong> σου και λαμβάνεις έναν εξαψήφιο κωδικό μιας χρήσης.
+<strong>Δεν υπάρχει κωδικός πρόσβασης</strong> να φυλαχθεί ή να διαρρεύσει.
+Το email αποθηκεύεται ώστε να μπορείς να ξανασυνδεθείς.
+</p>
+
+<h3>Τι ανεβαίνει όταν είσαι συνδεδεμένη</h3>
+<p>
+Αντίγραφο όσων περιγράφει ο πίνακας της §2 — συνταγές, πλάνο, ντουλάπι, λίστα ψωνιών,
+ιστορικό μαγειρέματος και ρυθμίσεις προφίλ. Ανεβαίνει <strong>αυτόματα λίγα δευτερόλεπτα
+μετά από κάθε αλλαγή</strong>. Οι έτοιμες συνταγές της εφαρμογής δεν ανεβαίνουν.
+</p>
+<p>
+Τα δεδομένα σου είναι <strong>δικά σου και μόνο</strong>: η βάση εφαρμόζει κανόνες
+πρόσβασης ανά χρήστη (Row Level Security), ώστε κανένας άλλος χρήστης να μην μπορεί
+να τα δει. Δεν κοινοποιούνται σε κανέναν τρίτο.
+</p>
+
+<h2>4. Εισαγωγή συνταγής από σύνδεσμο (AI)</h2>
+<p>
+Αν επικολλήσεις σύνδεσμο από Instagram ή TikTok, η εφαρμογή ζητάει <strong>τη λεζάντα
+της ανάρτησης</strong> και τη μετατρέπει σε δομημένη συνταγή. Αυτό απαιτεί λογαριασμό
+και γίνεται <strong>μόνο όταν το ζητήσεις εσύ</strong>.
+</p>
+<p>Τι ταξιδεύει και πού:</p>
 <ul>
-  <li><strong>Δεν ανεβάζει δεδομένα στο διαδίκτυο.</strong> Δεν υπάρχει λογαριασμός και δεν υπάρχει συγχρονισμός.</li>
-  <li><strong>Δεν μοιράζεται δεδομένα με κανέναν τρίτο.</strong> Ούτε με διαφημιστές, ούτε με αναλυτικά εργαλεία, ούτε με άλλους χρήστες.</li>
+  <li>Ο <strong>σύνδεσμος</strong> που επικόλλησες πηγαίνει στον πάροχο που φέρνει τη λεζάντα.</li>
+  <li>Η <strong>λεζάντα</strong> πηγαίνει στην υπηρεσία AI που τη δομεί σε συνταγή.</li>
+  <li>Καταγράφεται ότι έγινε μία εισαγωγή, για το <strong>όριο δωρεάν χρήσης</strong>.
+      Δεν αποθηκεύεται ο σύνδεσμος στο ιστορικό χρήσης.</li>
+</ul>
+<p>
+<strong>Δεν στέλνονται</strong> το ντουλάπι σου, το πλάνο σου, το email σου ή οτιδήποτε
+άλλο προσωπικό. Ούτε φωτογραφίες, ούτε βίντεο.
+</p>
+
+<h2>5. Ποιοι μας βοηθούν να λειτουργεί</h2>
+<p>
+Για να δουλέψουν ο λογαριασμός και η εισαγωγή συνταγών, χρησιμοποιούμε τρίτους
+παρόχους. Ο καθένας βλέπει <strong>μόνο</strong> ό,τι χρειάζεται:
+</p>
+<table>
+  <tr><th>Πάροχος</th><th>Για τι</th><th>Τι βλέπει</th></tr>
+  <tr><td>Supabase</td><td>Λογαριασμός και αντίγραφο δεδομένων</td><td>Email και τα δεδομένα της §2 <em>(διακομιστές στη Φρανκφούρτη, ΕΕ)</em></td></tr>
+  <tr><td>Anthropic</td><td>Μετατροπή λεζάντας σε συνταγή</td><td>Μόνο το κείμενο της λεζάντας <em>(ΗΠΑ)</em></td></tr>
+  <tr><td>ScrapeCreators</td><td>Ανάκτηση της λεζάντας</td><td>Μόνο τον σύνδεσμο που επικόλλησες <em>(ΗΠΑ)</em></td></tr>
+  <tr><td>Google (Gmail)</td><td>Αποστολή του κωδικού σύνδεσης</td><td>Μόνο τη διεύθυνση email σου</td></tr>
+</table>
+<p>
+Για τους παρόχους εκτός ΕΕ, η διαβίβαση γίνεται με τις τυποποιημένες συμβατικές ρήτρες
+της Ευρωπαϊκής Επιτροπής. Κανένας από αυτούς δεν χρησιμοποιεί τα δεδομένα σου
+για διαφήμιση, και κανείς δεν τα πουλάει.
+</p>
+
+<h2>6. Σχόλια και αναφορές προβλημάτων</h2>
+<p>
+Αν στείλεις σχόλιο ή αναφορά bug μέσα από την εφαρμογή, αποθηκεύεται το κείμενό σου
+μαζί με <strong>την έκδοση της εφαρμογής, τη συσκευή και την έκδοση του λειτουργικού</strong>
+— χωρίς αυτά, μια αναφορά προβλήματος δεν μπορεί να διερευνηθεί.
+</p>
+<p>
+<strong>Δεν χρειάζεται λογαριασμός.</strong> Αν δεν είσαι συνδεδεμένη, το σχόλιο είναι
+εντελώς ανώνυμο. Αν είσαι, συνδέεται με τον λογαριασμό σου ώστε να μπορούμε να σου
+απαντήσουμε.
+</p>
+
+<h2>7. Τι <em>δεν</em> κάνει η εφαρμογή</h2>
+<ul>
+  <li><strong>Δεν ανεβάζει τίποτα αν δεν έχεις συνδεθεί.</strong> Χωρίς λογαριασμό, τα δεδομένα δεν φεύγουν ποτέ από τη συσκευή.</li>
+  <li><strong>Δεν πουλάει και δεν εμπορεύεται δεδομένα.</strong> Ούτε σε διαφημιστές, ούτε σε κανέναν άλλο.</li>
+  <li><strong>Δεν δείχνει τα δεδομένα σου σε άλλους χρήστες.</strong></li>
   <li><strong>Δεν χρησιμοποιεί analytics ή trackers.</strong> Δεν καταγράφεται πώς χρησιμοποιείς την εφαρμογή.</li>
   <li><strong>Δεν εμφανίζει διαφημίσεις.</strong></li>
   <li><strong>Δεν ζητάει πρόσβαση</strong> σε επαφές, τοποθεσία, φωτογραφίες ή μικρόφωνο.</li>
   <li><strong>Δεν συλλέγει δεδομένα υγείας.</strong> Δεν υπάρχει καταγραφή βάρους, μετρήσεων ή ιατρικών στοιχείων.</li>
 </ul>
 
-<h2>4. Ειδοποιήσεις</h2>
+<h2>8. Ειδοποιήσεις</h2>
 <p>
 Αν επιτρέψεις τις ειδοποιήσεις, η εφαρμογή προγραμματίζει υπενθυμίσεις
 <strong>τοπικά στη συσκευή σου</strong>. Δεν περνούν από κανέναν διακομιστή και δεν
@@ -96,19 +176,24 @@
 από τις ρυθμίσεις της εφαρμογής ή της συσκευής σου.
 </p>
 
-<h2>5. Τα δικαιώματά σου</h2>
-<p>
-Επειδή τα δεδομένα βρίσκονται μόνο στη δική σου συσκευή, τα ελέγχεις απευθείας
-— δεν χρειάζεται να ζητήσεις τίποτα από εμάς:
-</p>
+<h2>9. Τα δικαιώματά σου</h2>
 <ul>
-  <li><strong>Πρόσβαση:</strong> βλέπεις τα πάντα μέσα στην εφαρμογή.</li>
+  <li><strong>Πρόσβαση:</strong> βλέπεις τα πάντα μέσα στην εφαρμογή — είναι τα ίδια δεδομένα που κρατάει ο λογαριασμός.</li>
   <li><strong>Διόρθωση:</strong> αλλάζεις ή σβήνεις οποιοδήποτε στοιχείο μέσα από τις οθόνες της.</li>
-  <li><strong>Διαγραφή:</strong> αν διαγράψεις την εφαρμογή, διαγράφονται μαζί <strong>όλα</strong> τα δεδομένα της, οριστικά.</li>
+  <li><strong>Διαγραφή δεδομένων συσκευής:</strong> αν διαγράψεις την εφαρμογή, φεύγουν μαζί της όλα τα τοπικά δεδομένα.</li>
+  <li><strong>Διαγραφή λογαριασμού:</strong> από <em>Προφίλ → Διαγραφή λογαριασμού</em>. Σβήνεται
+      <strong>οριστικά</strong> ο λογαριασμός και το αντίγραφο στο cloud. Δεν χρειάζεται να μας στείλεις email,
+      και δεν κρατάμε τίποτα «για παν ενδεχόμενο».</li>
+  <li><strong>Φορητότητα και εναντίωση:</strong> γράψε μας στη διεύθυνση της §1 και απαντάμε εντός ενός μήνα.</li>
 </ul>
 <p>
-Δεν διατηρούμε κανένα αντίγραφο. Δεν μπορούμε να ανακτήσουμε δεδομένα που διέγραψες,
-γιατί δεν τα είχαμε ποτέ.
+<strong>Πόσο κρατάμε τα δεδομένα:</strong> όσο υπάρχει ο λογαριασμός σου. Με τη διαγραφή του
+φεύγουν άμεσα. Οι αναφορές προβλημάτων (§6) παραμένουν, αλλά <strong>αποσυνδέονται από εσένα</strong>
+και γίνονται ανώνυμες.
+</p>
+<p>
+<strong>Νομική βάση:</strong> η επεξεργασία γίνεται για να σου παρέχουμε την υπηρεσία που ζήτησες
+(άρθρο 6 παρ. 1 στοιχ. β΄ GDPR). Δεν γίνεται αυτοματοποιημένη λήψη αποφάσεων ούτε κατάρτιση προφίλ.
 </p>
 <p>
 Διατηρείς επίσης τα δικαιώματα που σου δίνει ο <strong>Γενικός Κανονισμός Προστασίας
@@ -116,28 +201,35 @@
 Δεδομένων Προσωπικού Χαρακτήρα (<a href="https://www.dpa.gr">dpa.gr</a>).
 </p>
 
-<h2>6. Παιδιά</h2>
+<h2>10. Παιδιά</h2>
 <p>
 Η Nevora δεν απευθύνεται σε παιδιά κάτω των 16 ετών και δεν συλλέγει εν γνώσει της
 δεδομένα από αυτά.
 </p>
 
-<h2>7. Τι θα αλλάξει στο μέλλον</h2>
+<h2>11. Τι θα αλλάξει στο μέλλον</h2>
 <p>
 Σχεδιάζουμε να προσθέσουμε προαιρετικές λειτουργίες που <em>θα</em> απαιτούν μεταφορά δεδομένων:
 </p>
 <ul>
-  <li><strong>Λογαριασμός και συγχρονισμός</strong>, ώστε τα δεδομένα σου να επιβιώνουν από αλλαγή συσκευής.</li>
+  <li><strong>Καταγραφή βάρους και σωματικών μετρήσεων</strong>, ώστε να παρακολουθείς την
+      πορεία σου. Αυτά είναι <strong>δεδομένα υγείας</strong> και ο νόμος τα προστατεύει
+      αυστηρότερα: θα αποθηκεύονται <strong>χωριστά</strong> από τα υπόλοιπα, θα ζητούν
+      <strong>δική τους συγκατάθεση</strong> — όχι μαζί με τα άλλα — και θα μπορείς να τα
+      διαγράψεις μόνα τους, χωρίς να χάσεις τον λογαριασμό σου.</li>
   <li><strong>Κοινοποίηση σε διαιτολόγο</strong>, αν επιλέξεις εσύ να δώσεις πρόσβαση.</li>
+  <li><strong>Συνδρομή</strong> για απεριόριστη χρήση των λειτουργιών AI.</li>
 </ul>
 <div class="note">
-Καμία από αυτές δεν είναι ενεργή σήμερα. Όταν προστεθούν, θα είναι
+Καμία από αυτές δεν είναι ενεργή σήμερα. Ο λογαριασμός και ο συγχρονισμός,
+που εδώ αναγγέλλονταν ως μελλοντικοί, <strong>υπάρχουν πλέον</strong> και περιγράφονται
+στην §3. Για τα υπόλοιπα: όταν προστεθούν, θα είναι
 <strong>προαιρετικές</strong> και θα ζητούν <strong>ρητή, ξεχωριστή συγκατάθεση</strong>
 — όχι κρυμμένη μέσα στους όρους χρήσης. Θα μπορείς να την ανακαλέσεις οποτεδήποτε.
 Αυτή η πολιτική θα ενημερωθεί <strong>πριν</strong> ενεργοποιηθεί οτιδήποτε τέτοιο.
 </div>
 
-<h2>8. Αλλαγές σε αυτή την πολιτική</h2>
+<h2>12. Αλλαγές σε αυτή την πολιτική</h2>
 <p>
 Κάθε ουσιαστική αλλαγή θα δημοσιεύεται εδώ με νέα ημερομηνία ισχύος. Αν η αλλαγή
 αφορά νέα συλλογή δεδομένων, θα ενημερωθείς μέσα από την ίδια την εφαρμογή.
@@ -147,11 +239,12 @@
 
 <h1>Privacy Policy</h1>
 <p class="sub">Nevora — meal planning app<br>
-Effective: <strong>21 August 2026</strong> · Version 1.0</p>
+Effective: <strong>24 September 2026</strong> · Version 1.1</p>
 
 <div class="note">
-<strong>In one sentence:</strong> Nevora stores everything <strong>only on your device</strong>.
-There is no account, nothing is uploaded, and no one else can see your data.
+<strong>In one sentence:</strong> Nevora works <strong>without an account</strong> and keeps everything
+on your device. <strong>If</strong> you choose to sign in, a copy is also kept in your account so nothing is
+lost when you change phones. No ads, no trackers, no selling of data — ever.
 </div>
 
 <h3>1. Who is responsible</h3>
@@ -159,52 +252,103 @@ There is no account, nothing is uploaded, and no one else can see your data.
 Contact for any data-related question: <strong>elementa.constructions@gmail.com</strong></p>
 
 <h3>2. What the app stores</h3>
-<p>All of the following is stored <strong>solely on your device</strong>, in the app's private storage:
+<p>All of the following is stored <strong>on your device</strong>, in the app's private storage — and,
+if you are signed in, <strong>a copy is also kept in your account</strong> (see §3):
 favourite recipes and your ratings; your meal plan by date; your pantry items and quantities;
 your shopping list; your cooking history; and your profile (display name, calorie and protein
-goals, settings). The display name is free text shown in the greeting — it is never verified
-or transmitted.</p>
+goals, settings). The display name is free text shown in the greeting and is never verified.
+If you are signed in it is uploaded along with your other settings; if you are not, it never
+leaves the device.</p>
 
-<h3>3. What the app does not do</h3>
+<h3>3. The account — optional</h3>
+<p>Nevora works <strong>fully without an account</strong>. However, if you delete or reinstall the app,
+or change device, <strong>your data is lost</strong>. The account exists for exactly that reason.</p>
+<p>You sign in with your <strong>email</strong> and a one-time six-digit code — <strong>there is no
+password</strong> to be stored or leaked. Your email is kept so you can sign in again.</p>
+<p>While signed in, a copy of everything in §2 is uploaded automatically, a few seconds after each
+change. The app's built-in recipes are not uploaded. Row Level Security in the database ensures no
+other user can read your data, and it is not shared with any third party.</p>
+
+<h3>4. Importing a recipe from a link (AI)</h3>
+<p>If you paste an Instagram or TikTok link, the app fetches <strong>the post's caption</strong> and turns
+it into a structured recipe. This requires an account and happens <strong>only when you ask for it</strong>.</p>
 <ul>
-  <li>It does not upload data. There is no account and no sync.</li>
-  <li>It does not share data with any third party — no advertisers, no analytics, no other users.</li>
+  <li>The <strong>link</strong> you pasted goes to the provider that fetches the caption.</li>
+  <li>The <strong>caption text</strong> goes to the AI service that structures it.</li>
+  <li>We record that one import happened, for the free-usage limit. The link itself is not stored in that record.</li>
+</ul>
+<p>Your pantry, meal plan, email and anything else personal are <strong>not sent</strong>. Neither are
+photos or videos.</p>
+
+<h3>5. Who helps us operate</h3>
+<table>
+  <tr><th>Provider</th><th>Purpose</th><th>What it sees</th></tr>
+  <tr><td>Supabase</td><td>Account and data backup</td><td>Your email and the data in §2 <em>(servers in Frankfurt, EU)</em></td></tr>
+  <tr><td>Anthropic</td><td>Turning a caption into a recipe</td><td>Only the caption text <em>(USA)</em></td></tr>
+  <tr><td>ScrapeCreators</td><td>Fetching the caption</td><td>Only the link you pasted <em>(USA)</em></td></tr>
+  <tr><td>Google (Gmail)</td><td>Delivering your sign-in code</td><td>Only your email address</td></tr>
+</table>
+<p>Transfers outside the EU rely on the European Commission's Standard Contractual Clauses. None of
+these providers uses your data for advertising, and none sells it.</p>
+
+<h3>6. Feedback and bug reports</h3>
+<p>If you send feedback from within the app, your message is stored together with the
+<strong>app version, device and OS version</strong> — without those, a bug report cannot be investigated.
+<strong>No account is required</strong>: if you are not signed in, the report is fully anonymous.</p>
+
+<h3>7. What the app does not do</h3>
+<ul>
+  <li>It uploads nothing unless you are signed in. Without an account, data never leaves the device.</li>
+  <li>It does not sell or trade your data — to advertisers or to anyone else.</li>
+  <li>It does not show your data to other users.</li>
   <li>It contains no analytics or tracking of any kind.</li>
   <li>It shows no advertising.</li>
   <li>It does not request access to contacts, location, photos or microphone.</li>
   <li>It does not collect health data — no weight, measurements or medical information.</li>
 </ul>
 
-<h3>4. Notifications</h3>
+<h3>8. Notifications</h3>
 <p>If you allow notifications, reminders are scheduled <strong>locally on your device</strong>.
 They never pass through a server, and no one knows whether or when they appeared.
 You can disable them at any time.</p>
 
-<h3>5. Your rights</h3>
-<p>Because the data lives only on your device, you control it directly. You can view and edit
-everything inside the app, and deleting the app permanently deletes all of its data. We keep no
-copies and cannot recover deleted data, because we never had it. You also retain your rights
-under the <strong>GDPR</strong>, including the right to lodge a complaint with the Hellenic Data
-Protection Authority (<a href="https://www.dpa.gr">dpa.gr</a>).</p>
+<h3>9. Your rights</h3>
+<p>You can view and edit everything inside the app. Deleting the app removes all local data.
+To delete your <strong>account</strong> and its cloud copy permanently, use
+<em>Profile → Delete account</em> inside the app — no email to us is required, and we keep nothing
+"just in case". For portability or objection requests, write to the address in §1; we reply within
+one month.</p>
+<p><strong>Retention:</strong> data is kept for as long as your account exists and is removed
+immediately when you delete it. Bug reports (§6) are kept but <strong>detached from you</strong> and
+become anonymous.</p>
+<p><strong>Legal basis:</strong> processing is necessary to provide the service you requested
+(GDPR Art. 6(1)(b)). There is no automated decision-making or profiling.</p>
+<p>You also retain your rights under the <strong>GDPR</strong>, including the right to lodge a complaint
+with the Hellenic Data Protection Authority (<a href="https://www.dpa.gr">dpa.gr</a>).</p>
 
-<h3>6. Children</h3>
+<h3>10. Children</h3>
 <p>Nevora is not directed at children under 16 and does not knowingly collect data from them.</p>
 
-<h3>7. What will change</h3>
-<p>We plan to add optional features that <em>will</em> involve data transfer: an account with
-cloud sync, and the option to share your data with a dietitian. Neither is active today.
+<h3>11. What will change</h3>
+<p>The account and cloud sync, previously announced here as future features, <strong>now
+exist</strong> and are described in §3. Still planned: <strong>weight and body measurement
+tracking</strong> — this is <strong>health data</strong>, which the law protects more strictly, so it
+will be stored <strong>separately</strong>, will require its <strong>own consent</strong> rather than
+being bundled with anything else, and will be deletable on its own without losing your account —
+plus the option to share your data with a dietitian, and a subscription for unlimited AI features.
+None of these is active today.
 When they arrive they will be <strong>optional</strong> and will require <strong>explicit,
 separate consent</strong> — not buried in terms of service — revocable at any time. This policy
 will be updated <strong>before</strong> any such feature is enabled.</p>
 
-<h3>8. Changes to this policy</h3>
+<h3>12. Changes to this policy</h3>
 <p>Any material change will be published here with a new effective date. If a change involves
 new data collection, you will be informed inside the app.</p>
 
 </div>
 
 <footer>
-Nevora · Τελευταία ενημέρωση 21/8/2026 — Last updated 21 Aug 2026
+Nevora · Τελευταία ενημέρωση 24/9/2026 — Last updated 24 Sep 2026
 </footer>
 
 </main>
